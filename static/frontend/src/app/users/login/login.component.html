@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col-12">
+    <form class="form" (ngSubmit)="onLogin()">
+      <div class="form-group">
+        <label for="username">Nom d'utilisateur</label>
+        <input id="username" type="text" name="username" class="form-control" placeholder="Nom d'utilisateur" [(ngModel)]="username">
+      </div>
+      <div class="form-group">
+        <label for="password">Mot de passe</label>
+        <input id="password" type="password" name="password" class="form-control" placeholder="Mot de passe" [(ngModel)]="password">
+      </div>
+      <button type="submit" class="btn btn-primary">Me connecter</button>
+    </form>
+  </div>
+</div>
